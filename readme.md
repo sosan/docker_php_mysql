@@ -55,9 +55,21 @@ IMPORTAR DATOS
 - Boton continuar
 
 
-PUNTO DE ENTRADA WEB
+PUNTO DE ENTRADA WEB /
 ==========================
-- caso de localhost:
-    http://localhost/
-- en caso online:
-    http://www.url.com/
+este punto de entrada mostrara un mensaje de error o no, si es posible la conexion con la db
+http://url/
+
+
+PUNTO DE ENTRADA WEB /register.php
+==========================
+este punto de entrada mostrara un formulario con usuario y password para registrar en la base de datos
+http://url/register.php
+
+
+PUNTO DE ENTRADA WEB /login.php
+==========================
+este punto de entrada mostrara un formulario con usuario y password para login contra la base de datos
+http://url/login.php
+
+
